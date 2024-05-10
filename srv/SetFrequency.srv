@@ -1,0 +1,4 @@
+float64 frequency
+---
+bool success
+string message
