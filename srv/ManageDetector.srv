@@ -1,4 +1,5 @@
-string name
+string detector
+string topic
 bool active
 ---
 bool success
