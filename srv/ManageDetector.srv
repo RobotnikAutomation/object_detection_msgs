@@ -1,4 +1,4 @@
-string detector
+string name
 string topic
 bool active
 ---
