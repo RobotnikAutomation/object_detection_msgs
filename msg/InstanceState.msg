@@ -1,0 +1,2 @@
+string topic
+bool value

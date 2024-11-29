@@ -19,6 +19,8 @@ add_message_files(
   FILES
   DetectorState.msg
   DetectorsState.msg
+  InstanceState.msg
+  InstancesStateArray.msg
 )
 
 ## Generate services in the 'srv' folder
