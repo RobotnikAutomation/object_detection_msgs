@@ -7,6 +7,8 @@ project(object_detection_msgs)
 find_package(catkin REQUIRED COMPONENTS 
 std_msgs 
 message_generation
+vision_msgs
+sensor_msgs
 )
 
 
@@ -42,7 +44,7 @@ add_service_files(
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
 DEPENDENCIES
-   std_msgs  # Or other packages containing msgs
+   std_msgs
    sensor_msgs
    vision_msgs
 )
