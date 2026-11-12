@@ -4,7 +4,10 @@ project(object_detection_msgs)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS std_msgs sensor_msgs vision_msgs message_generation)
+find_package(catkin REQUIRED COMPONENTS 
+std_msgs 
+message_generation
+)
 
 
 #######################################
@@ -18,6 +21,8 @@ add_message_files(
   CameraDetections.msg
   DetectorState.msg
   DetectorsState.msg
+  InstanceState.msg
+  InstancesStateArray.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -25,6 +30,7 @@ add_service_files(
   FILES
   ManageDetector.srv
   SetFrequency.srv
+  ManageTopic.srv
 )
 
 #add_action_files(

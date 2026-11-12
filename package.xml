@@ -5,6 +5,7 @@
   <description>The object_detection_msgs package. Common messages and services used by object detection component.</description>
 
   <maintainer email="cllamas@robotnik.es">Carlos Llamas</maintainer>
+  <maintainer email="cmartinez@robotnik.es">César Martínez</maintainer>
 
 
   <license>BSD</license>
@@ -18,8 +19,6 @@
   <build_depend>vision_msgs</build_depend>
   <run_depend>message_runtime</run_depend>
   <run_depend>std_msgs</run_depend>
-  <run_depend>sensor_msgs</run_depend>
-  <run_depend>vision_msgs</run_depend>
   <export>
   </export>
 </package>

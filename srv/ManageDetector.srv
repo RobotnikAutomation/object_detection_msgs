@@ -1,4 +1,5 @@
 string name
+string topic
 bool active
 ---
 bool success
